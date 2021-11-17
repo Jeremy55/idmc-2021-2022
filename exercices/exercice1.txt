@@ -1,0 +1,8 @@
+Drink a glass of water :
+Trouver une bouteille d'eau
+Trouver un verre 
+Ouvrir la bouteille 
+Verser l'eau jusqu'en haut du verre
+Prendre le verre
+Boire l'eau du verre 
+Poser le verre

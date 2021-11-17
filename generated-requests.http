@@ -1,4 +1,16 @@
 ###
+POST http://localhost:7070/games
+Content-Type: application/json
+
+{
+  "name":"Quake III",
+  "Category":"Shooter",
+  "rating":10,
+  "price":666
+}
+
+###
 GET http://localhost:7070/games
 
 <> 2021-11-17T142210.200.json
+
