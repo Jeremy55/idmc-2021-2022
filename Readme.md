@@ -5,3 +5,4 @@
 - [Jackson java Instant formatting]()
   - [why @JsonFormat instead of @DateTimeFormat](https://www.javacodemonk.com/java-8-date-time-json-formatting-with-jackson-5fe5ff13)
   - [How to use it](https://stackoverflow.com/a/45674593/1107450)
+- [Spring Web MVC - current version](https://docs.spring.io/spring-framework/docs/current/reference/html/web.html)
