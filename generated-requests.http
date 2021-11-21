@@ -1,4 +1,0 @@
-GET http://localhost:8080/games
-Content-Type: application/json
-
-<> 2021-11-17T142054.200.json
