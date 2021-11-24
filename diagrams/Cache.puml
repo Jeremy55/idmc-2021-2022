@@ -1,0 +1,12 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+interface Instance-1 {
+   hibernate cache
+}
+
+interface Instance-2 {
+   hibernate cache
+}
+
+@enduml
