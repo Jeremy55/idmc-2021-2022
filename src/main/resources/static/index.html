@@ -5,8 +5,18 @@
     <title>Hello, I'm index, who are you ?</title>
 </head>
 <body>
-
-Hello, Index, I'm rodi
-
+<h1>Résultat de la requette postman-echo :</h1>
+<div id="result"></div>
 </body>
 </html>
+
+<script>
+    const result = document.getElementById("result")
+    fetch('http://127.0.0.1:7070/postman-echo/get')
+        .then(data => data.json())
+        .then(jsonData => {
+            const r = document.createElement("p")
+            r.innerText = JSON.stringify(jsonData);
+            result.appendChild(r)
+        })
+</script>
