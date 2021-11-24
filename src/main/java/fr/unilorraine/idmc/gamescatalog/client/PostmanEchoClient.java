@@ -13,12 +13,12 @@ public class PostmanEchoClient {
 
     @SneakyThrows
     public String testGet() {
-        HttpRequest request = HttpRequest.newBuilder()
+        var request = HttpRequest.newBuilder()
                 .uri(new URI("https://postman-echo.com/get"))
                 .GET()
                 .build();
 
-        HttpResponse<String> response = HttpClient
+        var response = HttpClient
                 .newHttpClient()
                 .send(request, HttpResponse.BodyHandlers.ofString());
 
