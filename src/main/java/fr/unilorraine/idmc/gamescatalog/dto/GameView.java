@@ -12,13 +12,14 @@ import java.time.Instant;
 @NoArgsConstructor
 //    why instant https://stackoverflow.com/questions/32437550/whats-the-difference-between-instant-and-localdatetime
 // how to use it https://stackoverflow.com/a/45674593/1107450
-@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy HH:mm:ss", timezone = "UTC")
 public class GameView {
 
     private String name;
     private Long price;
     private int rating;
     private String category;
+
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy HH:mm:ss", timezone = "UTC")
     private Instant releaseDate;
 
     private Long publisherId;
