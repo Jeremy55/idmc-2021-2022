@@ -9,7 +9,7 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
 @Component
-public class PostmanEchoClient {
+public class PostmanEchoJDK11Client {
 
     @SneakyThrows
     public String testGet() {
