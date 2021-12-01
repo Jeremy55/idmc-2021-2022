@@ -33,7 +33,7 @@
         },
         methods:{
             search : function(){
-                fetch(`http://127.0.0.1:7070/rawg/games/${this.gameid}`)
+                fetch(`http://127.0.0.1:8080/rawg/games/${this.gameid}`)
                     .then(data => data.json())
                     .then(jsonData => {
                         this.game.name = jsonData.name_original
