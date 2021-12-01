@@ -1,3 +1,5 @@
+// @no-cookie-jar
+
 GET http://localhost:8080/publishers
 Content-Type: application/json
 
@@ -5,6 +7,7 @@ Content-Type: application/json
 
 POST http://localhost:8080/publishers
 Content-Type: application/json
+Authorization: Basic user password
 
 {
   "name": "Electronic Arts"
