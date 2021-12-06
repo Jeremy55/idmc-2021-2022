@@ -13,7 +13,7 @@
     <changeSet id="0" author="rodi">
         <insert tableName="user" schemaName="gamescatalog">
             <column name="username" value="user"/>
-            <column name="password" value="5f4dcc3b5aa765d61d8327deb882cf99"/>
+            <column name="password" value="5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8"/>
             <column name="role" value="USER"/>
         </insert>
     </changeSet>
@@ -21,7 +21,7 @@
     <changeSet id="1" author="rodi">
         <insert tableName="user" schemaName="gamescatalog">
             <column name="username" value="user2"/>
-            <column name="password" value="5f4dcc3b5aa765d61d8327deb882cf99"/>
+            <column name="password" value="5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8"/>
             <column name="role" value="USER"/>
         </insert>
     </changeSet>
@@ -29,7 +29,7 @@
     <changeSet id="2" author="rodi">
         <insert tableName="user" schemaName="gamescatalog">
             <column name="username" value="admin"/>
-            <column name="password" value="5f4dcc3b5aa765d61d8327deb882cf99"/>
+            <column name="password" value="5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8"/>
             <column name="role" value="ADMIN"/>
         </insert>
     </changeSet>

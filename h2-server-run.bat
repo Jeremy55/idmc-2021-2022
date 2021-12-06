@@ -1,1 +1,1 @@
-java -cp C:\Users\jerem\.m2\repository\com\h2database\h2\1.4.200\h2-1.4.200.jar org.h2.tools.Server -tcpPort 9002 -web -webPort 7070 -tcp -tcpAllowOthers -ifNotExists -baseDir C:\Users\jerem\Desktop\Projets
+java -cp C:\Users\jerem\.m2\repository\com\h2database\h2\1.4.200\h2-1.4.200.jar org.h2.tools.Server -tcpPort 9002  -tcp -tcpAllowOthers -ifNotExists -baseDir C:\Users\jerem\Desktop\Projets

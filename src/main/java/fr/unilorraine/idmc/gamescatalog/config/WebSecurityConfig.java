@@ -2,6 +2,7 @@ package fr.unilorraine.idmc.gamescatalog.config;
 
 import fr.unilorraine.idmc.gamescatalog.core.DBAuthProvider;
 import fr.unilorraine.idmc.gamescatalog.core.MD5Checker;
+import fr.unilorraine.idmc.gamescatalog.core.SHA256Checker;
 import fr.unilorraine.idmc.gamescatalog.core.UserDetailsServiceFactory;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
@@ -46,7 +47,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
         // https://dzone.com/articles/spring-security-authentication
         if (properties.getStorage() == DB) {
-            final var authProvider = new DBAuthProvider(detailsFactory.inDb(), new MD5Checker());
+            final var authProvider = new DBAuthProvider(detailsFactory.inDb(), new SHA256Checker());
             http.authenticationProvider(authProvider);
         } else {
             http.userDetailsService(detailsFactory.inMemory());
